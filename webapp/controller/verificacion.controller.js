@@ -788,7 +788,7 @@ sap.ui.define([
 									t.popSucces(arr, "Pedido Creado Exitosamente");
 
 									let idPedidoCreado = mensaje.split(":")[1].trim();
-									t.generarEntradaAuditoria(idPedidoCreado, oUsuariosap, nombreCompletoUsuario, true);
+									//t.generarEntradaAuditoria(idPedidoCreado, oUsuariosap, nombreCompletoUsuario, true);
 
 								} else {
 									console.log(mensaje);
@@ -811,7 +811,7 @@ sap.ui.define([
 									t.popSucces(arr, "Pedido Creado Exitosamente");
 
 									let idPedidoCreado = mensaje.split(":")[1].trim();
-									t.generarEntradaAuditoria(idPedidoCreado, oUsuariosap, nombreCompletoUsuario, true);
+									//t.generarEntradaAuditoria(idPedidoCreado, oUsuariosap, nombreCompletoUsuario, true);
 
 								} else {
 									console.log(mensaje);
@@ -931,7 +931,7 @@ sap.ui.define([
 
 									t.popSucces(arr, "Pedido Creado Exitosamente");
 									let idPedidoCreado = mensaje.split(":")[1].trim();
-									t.generarEntradaAuditoria(idPedidoCreado, oUsuariosap, nombreCompletoUsuario, false);
+									//t.generarEntradaAuditoria(idPedidoCreado, oUsuariosap, nombreCompletoUsuario, false);
 
 								} else {
 									console.log(mensaje);
@@ -953,7 +953,7 @@ sap.ui.define([
 
 									t.popSucces(arr, "Pedido Creado Exitosamente");
 									let idPedidoCreado = mensaje.split(":")[1].trim();
-									t.generarEntradaAuditoria(idPedidoCreado, oUsuariosap, nombreCompletoUsuario, false);
+									//t.generarEntradaAuditoria(idPedidoCreado, oUsuariosap, nombreCompletoUsuario, false);
 
 								} else {
 									console.log(mensaje);
